@@ -69,7 +69,7 @@ RefraRAG_V0/
 ### Install from Source
 
 ```bash
-git clone https://github.com/your-username/RefraRAG.git
+git clone https://github.com/KOLO233/RefraRAG.git
 cd RefraRAG_V0
 
 # Create virtual environment
@@ -152,8 +152,6 @@ Key configuration sections:
 | `query_classifier` | Classification mode (rule/llm/hybrid) |
 | `graph` | Knowledge graph settings |
 | `generation` | Strategy per query level |
-
-**Important**: Never commit `config/settings.yaml` — it contains your API keys. The `.gitignore` excludes it by default.
 
 ---
 
@@ -267,7 +265,7 @@ Use a smaller model in `config/settings.yaml`: change `model` to `BAAI/bge-small
 @software{refrarag2026,
   title = {RefraRAG: Multi-level Query Understanding and Hybrid Enhanced RAG},
   year = {2026},
-  url = {https://github.com/your-username/RefraRAG}
+  url = {https://github.com/KOLO233/RefraRAG}
 }
 ```
 

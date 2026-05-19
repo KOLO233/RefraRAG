@@ -74,7 +74,7 @@ RefraRAG_V0/
 ### 从源码安装
 
 ```bash
-git clone https://github.com/your-username/RefraRAG.git
+git clone https://github.com/KOLO233/RefraRAG.git
 cd RefraRAG_V0
 
 # 创建虚拟环境
@@ -155,8 +155,6 @@ cp config/settings.yaml.example config/settings.yaml
 | `query_classifier` | 分类模式（rule/llm/hybrid） |
 | `graph` | 知识图谱配置 |
 | `generation` | 各级别生成策略 |
-
-**注意**：`config/settings.yaml` 包含 API 密钥，不会提交到仓库。`.gitignore` 已默认排除。
 
 ---
 
@@ -270,7 +268,7 @@ Golden Test Set（`data/test_sets/golden_test_set.json`）包含 23 条覆盖四
 @software{refrarag2026,
   title = {RefraRAG: Multi-level Query Understanding and Hybrid Enhanced RAG},
   year = {2026},
-  url = {https://github.com/your-username/RefraRAG}
+  url = {https://github.com/KOLO233/RefraRAG}
 }
 ```
 

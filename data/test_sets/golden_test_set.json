@@ -1,0 +1,163 @@
+[
+  {
+    "question": "什么是机器学习？",
+    "expected_answer": "机器学习是人工智能的一个子领域，核心思想是让计算机通过数据自动学习规律和模式，而无需被明确编程。",
+    "expected_level": "L1",
+    "ground_truth_chunks": [],
+    "category": "定义"
+  },
+  {
+    "question": "什么是深度学习？",
+    "expected_answer": "深度学习是机器学习的一个子领域，基于人工神经网络，特别是深层神经网络，通过多层非线性变换来学习数据的层次化表示。",
+    "expected_level": "L1",
+    "ground_truth_chunks": [],
+    "category": "定义"
+  },
+  {
+    "question": "什么是自然语言处理？",
+    "expected_answer": "自然语言处理（NLP）是人工智能和语言学的交叉领域，致力于让计算机理解、生成和处理人类自然语言。",
+    "expected_level": "L1",
+    "ground_truth_chunks": [],
+    "category": "定义"
+  },
+  {
+    "question": "什么是注意力机制？",
+    "expected_answer": "注意力机制是深度学习中的重要创新，核心思想是在处理序列数据时，模型应该根据不同位置的重要性分配不同的注意力权重。",
+    "expected_level": "L1",
+    "ground_truth_chunks": [],
+    "category": "定义"
+  },
+  {
+    "question": "什么是RAG？",
+    "expected_answer": "检索增强生成（RAG）是一种将信息检索与大语言模型生成相结合的技术框架，在生成回答之前先从知识库中检索相关信息。",
+    "expected_level": "L1",
+    "ground_truth_chunks": [],
+    "category": "定义"
+  },
+  {
+    "question": "机器学习有哪些主要分类？",
+    "expected_answer": "机器学习主要分为监督学习、无监督学习、半监督学习和强化学习四大类。",
+    "expected_level": "L1",
+    "ground_truth_chunks": [],
+    "category": "列举"
+  },
+  {
+    "question": "常见的深度学习架构有哪些？",
+    "expected_answer": "常见的深度学习架构包括卷积神经网络（CNN）、循环神经网络（RNN/LSTM/GRU）和Transformer。",
+    "expected_level": "L1",
+    "ground_truth_chunks": [],
+    "category": "列举"
+  },
+  {
+    "question": "人工智能可以分为哪三类？",
+    "expected_answer": "人工智能按能力水平分为弱人工智能（Narrow AI）、强人工智能（General AI）和超级人工智能（Super AI）。",
+    "expected_level": "L1",
+    "ground_truth_chunks": [],
+    "category": "列举"
+  },
+  {
+    "question": "监督学习和无监督学习有什么区别？",
+    "expected_answer": "监督学习需要带标签数据，用于分类和回归；无监督学习不需要标签，用于聚类和降维。两者在数据要求、任务类型、评估方式和应用场景上存在显著差异。",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较"
+  },
+  {
+    "question": "BERT和GPT有什么区别？",
+    "expected_answer": "BERT采用双向编码器架构，适合理解型任务；GPT采用单向解码器架构，适合生成型任务。BERT是理解优先，GPT是生成优先。",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较"
+  },
+  {
+    "question": "CNN和RNN分别适用于什么场景？",
+    "expected_answer": "CNN专门处理网格化数据如图像，通过卷积层提取局部特征；RNN专门处理序列数据如文本，通过隐藏状态记忆历史信息。",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较"
+  },
+  {
+    "question": "密集检索和稀疏检索有什么不同？",
+    "expected_answer": "密集检索基于向量相似度进行语义匹配；稀疏检索基于BM25等关键词匹配。两者互补，通过RRF融合可兼顾查全率和查准率。",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较"
+  },
+  {
+    "question": "弱人工智能和强人工智能有什么区别？",
+    "expected_answer": "弱人工智能专注于执行特定任务，在特定任务上可超越人类但不具备通用智能；强人工智能具有与人类相当的通用智能，目前尚未实现。",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较"
+  },
+  {
+    "question": "为什么会出现梯度消失？",
+    "expected_answer": "梯度消失的根本原因在于反向传播的链式法则与饱和激活函数（如Sigmoid）导数小于1的特性相结合，在深层网络中导致梯度指数级衰减。",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理"
+  },
+  {
+    "question": "为什么Transformer能取代RNN成为主流架构？",
+    "expected_answer": "因为Transformer摒弃了循环结构，完全依赖注意力机制来捕捉序列中的依赖关系，可以并行计算，解决了RNN的长期依赖和串行计算问题。",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理"
+  },
+  {
+    "question": "为什么RAG能减少大语言模型的幻觉？",
+    "expected_answer": "因为RAG在生成回答之前先从知识库中检索相关信息作为上下文，让模型基于事实依据生成回答，而不是仅依赖参数中的记忆，从而减少了编造信息的可能性。",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理"
+  },
+  {
+    "question": "为什么反向传播算法需要链式法则？",
+    "expected_answer": "因为深度神经网络的参数更新需要计算损失函数对每个参数的梯度，而损失函数是通过多层复合函数计算的，链式法则正是求复合函数导数的数学工具。",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理"
+  },
+  {
+    "question": "为什么注意力机制能提升模型性能？",
+    "expected_answer": "因为注意力机制让模型能够根据输入的不同部分动态分配权重，聚焦于最相关的信息，解决了固定长度向量表示信息瓶颈的问题。",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理"
+  },
+  {
+    "question": "如果用ReLU完全替代Sigmoid会怎样？",
+    "expected_answer": "会缓解梯度消失问题、提升计算效率、产生稀疏激活，但可能导致神经元死亡和梯度爆炸。需要配合残差连接、批归一化等技术。",
+    "expected_level": "L4",
+    "ground_truth_chunks": [],
+    "category": "假设推理"
+  },
+  {
+    "question": "如果将学习率增大10倍会怎样？",
+    "expected_answer": "可能导致训练不稳定、损失函数震荡甚至发散，参数更新幅度过大跳过最优解。需要配合学习率调度策略。",
+    "expected_level": "L4",
+    "ground_truth_chunks": [],
+    "category": "假设推理"
+  },
+  {
+    "question": "如果去掉Transformer中的位置编码会怎样？",
+    "expected_answer": "模型将无法区分序列中不同位置的token，因为自注意力机制本身是位置无关的，会导致模型丧失序列顺序信息，无法处理语言等有序数据。",
+    "expected_level": "L4",
+    "ground_truth_chunks": [],
+    "category": "假设推理"
+  },
+  {
+    "question": "如果RAG系统中检索到的文档全是噪声会怎样？",
+    "expected_answer": "模型可能基于错误信息生成不准确的回答，甚至比不检索更差。需要相关性门控机制判断是否需要检索，以及Self-RAG式的批判性评估。",
+    "expected_level": "L4",
+    "ground_truth_chunks": [],
+    "category": "假设推理"
+  },
+  {
+    "question": "如果用更大的网络层数但不改变其他超参数会怎样？",
+    "expected_answer": "可能导致梯度消失更严重、过拟合风险增加、训练时间大幅增长。需要配合残差连接、批归一化、Dropout等技术来支持更深的网络。",
+    "expected_level": "L4",
+    "ground_truth_chunks": [],
+    "category": "假设推理"
+  }
+]

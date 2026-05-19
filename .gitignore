@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env.local
+config/settings.yaml
+!config/settings.yaml.example
+
+# Data (large files, not tracked)
+data/documents/*
+data/db/
+data/bm25_state.json
+!data/documents/.gitkeep
+!data/test_sets/
+
+# Logs
+logs/
+*.log
+
+# Milvus / Docker data
+etcd_data/
+minio_data/
+milvus_data/
+postgres_data/
+redis_data/
+
+# Evaluation results (generated)
+results/*.json
+
+# Knowledge graph (generated)
+data/knowledge_graph.json
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Temporary
+*.tmp
+*.bak
+_temp_*
+
+# Internal docs (not for public repo)
+ARCHITECTURE.md
+DESIGN_ANALYSIS.md
+SETUP_GUIDE.md
+lib/
